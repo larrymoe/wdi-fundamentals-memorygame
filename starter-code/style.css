@@ -30,11 +30,15 @@ footer {
 	background-color: #808080;
 }
 
+img {
+	width: 150px;
+}
+
 .board {
 	height: 50%;
 	width: 50%;
-	text-align: left;
-	display: inline-block;
+	text-align: center;
+	margin: auto;
 }
 
 .card {
@@ -44,8 +48,8 @@ footer {
 	border-width: 1px;
 	border-radius: 10px;
 	background-color: yellow;
-	float: left;
 	margin: 8%;
+	display: inline-block;
 }
 
 .myname {
